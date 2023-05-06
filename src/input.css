@@ -8,8 +8,14 @@
 @tailwind utilities;
 
 @layer base{
+    .body{
+        @apply font-poppins
+    }
     .text{
         @apply text-white font-poppins px-3
+    }
+    .text-black{
+
     }
     .mobile-text{
         @apply text-xs
@@ -24,7 +30,6 @@
         @apply flex  bg-green-secundary-dark justify-center
     }
     .clock{
-        
     }
     .nav-button {
         @apply bg-lime-500 rounded-xl font-extrabold text-white px-5;
